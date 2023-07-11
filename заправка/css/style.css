@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+
+}
+.container{
+	max-width: 100%;
+    background-image: url(../img/fon.png);
+    height: 950px;
+
+}
+.header{
+	max-width: 1920px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+
+}
+.header__logo{
+	margin: 34px 40px 32.93px 250px;
+}
+.header__nav{
+	display: flex;
+	align-items: center;
+
+}
+.list{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+
+}
+.item{
+	color: var(--grayscale-white, #FFF);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+margin-right: 25px ;
+}
+.header__contakt{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 22px;
+}
+.phone{
+	color: var(--grayscale-white, #FFF);
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+
+}
+.header__button{
+	color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 153.4%;
+border-radius: 15px;
+border: 1px solid #0000DE;
+background: #0000DE;
+padding: 13px 43px 12px 43px;
+margin-left: 25px;
+}
+.azs{
+	margin: 65px 250px 20px 1446px;
+}
+.sotr{
+	margin: 0 250px 20px 1446px;
+}
+.klient{
+	margin: 0 250px 20px   1446px;
+}
+.winner{
+	margin: 0 250px 20px   1446px;
+}
+.red__button{
+	margin: 0 249px 73px 1511px;
+}
